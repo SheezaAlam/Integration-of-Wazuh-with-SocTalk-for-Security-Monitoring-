@@ -6,13 +6,13 @@ A hands-on attempt to build a Security Operations Center (SOC) environment by de
 
 ---
 
-## 📋 Introduction
+##  Introduction
 
 Cyber attacks — brute force attempts, malware infections, unauthorized access — are increasing rapidly, and organizations need efficient systems to detect and respond to these threats quickly.
 
 This project focuses on building a SOC environment using modern tooling: **SocTalk** as the visualization and investigation platform, and **Wazuh** as the threat detection system. The goal wasn't just to stand the system up, but to understand how real-world attacks are detected, analyzed, and displayed on a professional SOC dashboard.
 
-## 🎯 Objectives
+##  Objectives
 
 1. Set up a SOC environment using Docker
 2. Successfully run the SocTalk platform
@@ -23,7 +23,7 @@ This project focuses on building a SOC environment using modern tooling: **SocTa
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Role |
 |---|---|
@@ -35,7 +35,7 @@ This project focuses on building a SOC environment using modern tooling: **SocTa
 
 ---
 
-## 🚀 System Setup
+##  System Setup
 
 The system was deployed using **Docker Compose**, with the following services:
 
@@ -80,7 +80,7 @@ Once running, the deployment was confirmed live at:
 
 ---
 
-## ⚠️ Challenges Faced
+##  Challenges Faced
 
 Several practical challenges came up during the project:
 
@@ -94,7 +94,7 @@ Despite these challenges, the system setup was completed and adapted for demonst
 
 ---
 
-## 🎯 Attack Simulation
+##  Attack Simulation
 
 Since full integration with Wazuh was not completed, attack scenarios were simulated to demonstrate how a SOC system behaves.
 
@@ -108,7 +108,7 @@ These are common real-world attacks that SOC systems handle daily.
 
 ---
 
-## 📊 Dashboard Analysis
+##  Dashboard Analysis
 
 Two dashboards are discussed in this project.
 
@@ -145,7 +145,7 @@ This gives a clear idea of how the system would behave if real Wazuh data was co
 
 ---
 
-## ✅ Results
+##  Results
 
 The project successfully demonstrated:
 
@@ -159,7 +159,7 @@ Even though full integration was not achieved, the project still reflects how a 
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project provided practical exposure to SOC systems and cybersecurity monitoring tools. It helped in understanding how attacks are detected and analyzed in real environments.
 
@@ -167,7 +167,7 @@ Although integration with Wazuh faced technical limitations, the main objective 
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 1. Complete integration with Wazuh using proper configuration
 2. Enable real-time log ingestion
@@ -177,7 +177,7 @@ Although integration with Wazuh faced technical limitations, the main objective 
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 .
@@ -193,7 +193,7 @@ Although integration with Wazuh faced technical limitations, the main objective 
     └── wazuh-simulated-dashboard.png
 ```
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - [SocTalk](https://github.com) — SOC investigation & dashboard platform
 - [Wazuh](https://wazuh.com) — open-source SIEM/XDR (attempted integration)
